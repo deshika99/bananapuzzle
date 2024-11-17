@@ -1,0 +1,55 @@
+.leaderboard-container {
+  background-color: rgba(214, 239, 49, 0.8); /* Banana yellow with opacity */
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.leaderboard-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Images/bg\ banana.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(60%);
+  z-index: -1;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+th {
+  background-color: greenyellow;
+  font-weight: normal;
+}
+
+tr.highlighted {
+  background-color: rgba(214, 239, 49, 0.8); /* Banana yellow with opacity */
+}
+
+tr.highlighted td {
+  color: greenyellow;
+}

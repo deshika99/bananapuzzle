@@ -1,0 +1,100 @@
+.how-to-play-container {
+  background-image: url("../Images/bg\ banana.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-to-play-content {
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  border-radius: 10px;
+}
+
+.how-to-play-header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: greenyellow; /* Your theme color */
+  animation: fadeInDown 1s ease; /* Add fade in animation */
+}
+
+.how-to-play-header p {
+  font-size: 16px;
+  color: #fff; /* White text */
+  animation: fadeInUp 1s ease; /* Add fade in animation */
+}
+
+.how-to-play-instructions h2,
+.how-to-play-tips h2,
+.watch-gameplay h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: greenyellow; /* Your theme color */
+  animation: fadeInLeft 1s ease; /* Add fade in animation */
+}
+
+.how-to-play-instructions ol,
+.how-to-play-tips ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.how-to-play-instructions li,
+.how-to-play-tips li {
+  margin-bottom: 10px;
+  color: #fff; /* White text */
+  animation: fadeInLeft 1s ease; /* Add fade in animation */
+}
+
+.watch-gameplay .gameplay-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: greenyellow; /* Your theme color */
+  color: #fff; /* White text */
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  animation: fadeInRight 1s ease; /* Add fade in animation */
+}
+
+.watch-gameplay .gameplay-button:hover {
+  background-color: #ff6347; /* Lighter shade of banana */
+}
+
+.how-to-play-instructions h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: greenyellow; /* Your theme color */
+  overflow: hidden; /* Hide overflow to create typewriter effect */
+  border-right: 0.15em solid white; /* Typing cursor */
+  white-space: nowrap; /* Keep text in one line */
+  animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite; /* Typewriter animation */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.how-to-play-instructions p {
+  color: #fff; /* White text */
+}

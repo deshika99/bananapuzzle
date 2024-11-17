@@ -1,0 +1,26 @@
+/* Styling for the body element */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../Images/bg\ banana.jpg"); /* Background image for the entire screen */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styling for the profile container */
+.profile-container {
+  width: 400px;
+  height: 600px;
+  padding: 40px; /* Increase padding for spacing */
+  border-radius: 10px;
+  text-align: left; /* Align text to the left */
+  margin: 0 auto; /* Center horizontally */
+  background-color: rgba(214, 239, 49, 0.8); /* Banana yellow with opacity */
+}
+
+/* Styling for the text inside the profile container */
+.profile-text {
+  font-size: 24px; /* Increase font size */
+  color: #fff; /* White text */
+  margin-bottom: 30px; /* Add more spacing between texts */
+}
